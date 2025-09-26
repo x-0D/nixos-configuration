@@ -7,11 +7,11 @@
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-uVeqpIMRyVQbD8t+njbVMj1Lsy0CAo7+UL7JTCdFNqU=",
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/adguardhome",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/adguardhome",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/adguardhome",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/adguardhome",
         "type": "path"
       }
     },
@@ -33,48 +33,63 @@
         "type": "github"
       }
     },
-    "navidrome": {
+    "n8n": {
       "inputs": {
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-VZaxMWC+BMlelxiNQVCpFTNIvM70Ik87AHBp063il6Y=",
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/navidrome",
+        "narHash": "sha256-bd9oorcj/q4byRhtnncqqdpFUfvOKOsT/oqQ5q9xNTI=",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/n8n",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/navidrome",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/n8n",
         "type": "path"
       }
     },
-    "netdata": {
+    "navidrome": {
       "inputs": {
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-HqCUpF7gllqAP9cwFmaAJsMfEsDc8TXJb87Bk9vRT7A=",
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/netdata",
+        "narHash": "sha256-VZaxMWC+BMlelxiNQVCpFTNIvM70Ik87AHBp063il6Y=",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/navidrome",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/netdata",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/navidrome",
         "type": "path"
       }
     },
-    "nginx-proxy-manager": {
+    "netdata": {
       "inputs": {
         "nixpkgs": "nixpkgs_4"
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-vvIx9yM7vPkLOvjM3Jm8BsiVQ8E8vfoWc28NltkXoFU=",
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/nginx-proxy-manager",
+        "narHash": "sha256-HqCUpF7gllqAP9cwFmaAJsMfEsDc8TXJb87Bk9vRT7A=",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/netdata",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/nginx-proxy-manager",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/netdata",
+        "type": "path"
+      }
+    },
+    "nginx-proxy-manager": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_5"
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-vvIx9yM7vPkLOvjM3Jm8BsiVQ8E8vfoWc28NltkXoFU=",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/nginx-proxy-manager",
+        "type": "path"
+      },
+      "original": {
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/nginx-proxy-manager",
         "type": "path"
       }
     },
@@ -94,18 +109,32 @@
         "type": "github"
       }
     },
-    "nixpkgs_2": {
+    "nixpkgs_10": {
       "locked": {
-        "lastModified": 1734835170,
-        "narHash": "sha256-JG6n9tQET7ZLjvwjH9BdYE6pES/Alcduxv2FDXliuBM=",
+        "lastModified": 1682134069,
+        "narHash": "sha256-TnI/ZXSmRxQDt2sjRYK/8j8iha4B4zP2cnQCZZ3vp7k=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "6df924734e1b626efd70925545de844b1c25246f",
+        "rev": "fd901ef4bf93499374c5af385b2943f5801c0833",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1758690382,
+        "narHash": "sha256-NY3kSorgqE5LMm1LqNwGne3ZLMF2/ILgLpFr1fS4X3o=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e643668fd71b949c53f8626614b21ff71a07379d",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-24.05",
+        "ref": "nixos-unstable",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -208,31 +237,33 @@
     },
     "nixpkgs_9": {
       "locked": {
-        "lastModified": 1682134069,
-        "narHash": "sha256-TnI/ZXSmRxQDt2sjRYK/8j8iha4B4zP2cnQCZZ3vp7k=",
+        "lastModified": 1734835170,
+        "narHash": "sha256-JG6n9tQET7ZLjvwjH9BdYE6pES/Alcduxv2FDXliuBM=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "fd901ef4bf93499374c5af385b2943f5801c0833",
+        "rev": "6df924734e1b626efd70925545de844b1c25246f",
         "type": "github"
       },
       "original": {
-        "id": "nixpkgs",
-        "type": "indirect"
+        "owner": "NixOS",
+        "ref": "nixos-24.05",
+        "repo": "nixpkgs",
+        "type": "github"
       }
     },
     "portainer": {
       "inputs": {
-        "nixpkgs": "nixpkgs_6",
+        "nixpkgs": "nixpkgs_7",
         "portainer-on-nixos": "portainer-on-nixos"
       },
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-rj6rmzFkpeR4GFz+fH0VoE3RuYxCpXsOlR3NspT3QW8=",
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/portainer",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/portainer",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/portainer",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/portainer",
         "type": "path"
       }
     },
@@ -260,10 +291,11 @@
     "root": {
       "inputs": {
         "adguardhome": "adguardhome",
+        "n8n": "n8n",
         "navidrome": "navidrome",
         "netdata": "netdata",
         "nginx-proxy-manager": "nginx-proxy-manager",
-        "nixpkgs": "nixpkgs_5",
+        "nixpkgs": "nixpkgs_6",
         "portainer": "portainer",
         "vaultwarden": "vaultwarden",
         "vscode-server": "vscode-server"
@@ -286,39 +318,39 @@
     },
     "vaultwarden": {
       "inputs": {
-        "nixpkgs": "nixpkgs_7"
+        "nixpkgs": "nixpkgs_8"
       },
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-1gxj1Eb1ANbV82jgRTnF2aa7In/e5GlUxfNdSVeui8g=",
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/vaultwarden",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/vaultwarden",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/vaultwarden",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/vaultwarden",
         "type": "path"
       }
     },
     "vscode-server": {
       "inputs": {
-        "nixpkgs": "nixpkgs_8",
+        "nixpkgs": "nixpkgs_9",
         "vscode-server": "vscode-server_2"
       },
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-dUrw0q4UME6BBJy0lyyQH804amMlbvkFIcrJmN3aU8w=",
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/vscode-server",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/vscode-server",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/vscode-server",
+        "path": "/nix/store/h2bh4q11nrmdabdppfvv6cac6vsys5yv-source/services/vscode-server",
         "type": "path"
       }
     },
     "vscode-server_2": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs_9"
+        "nixpkgs": "nixpkgs_10"
       },
       "locked": {
         "lastModified": 1729422940,

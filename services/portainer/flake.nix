@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     portainer-on-nixos.url = "gitlab:cbleslie/portainer-on-nixos";
     portainer-on-nixos.inputs.nixpkgs.follows = "nixpkgs";
 

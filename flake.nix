@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     adguardhome.url = "./services/adguardhome";
     # authentik.url = "./services/authentik";
     navidrome.url = "./services/navidrome";
@@ -38,6 +38,7 @@
       system = "x86_64-linux";
       specialArgs = { inherit inputs; };
       modules = [
+        { nixpkgs.config.allowUnfree = true; }
         ./configuration.nix
       ] ++ serviceConfigurations;
     };
