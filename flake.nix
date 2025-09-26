@@ -9,6 +9,7 @@
     portainer.url = "./services/portainer";
     vaultwarden.url = "./services/vaultwarden";
     vscode-server.url = "./services/vscode-server";
+    n8n.url = "./services/n8n";
     # services.url = "./services";
   };
   outputs = {

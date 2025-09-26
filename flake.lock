@@ -7,11 +7,11 @@
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-uVeqpIMRyVQbD8t+njbVMj1Lsy0CAo7+UL7JTCdFNqU=",
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/adguardhome",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/adguardhome",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/adguardhome",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/adguardhome",
         "type": "path"
       }
     },
@@ -40,11 +40,11 @@
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-VZaxMWC+BMlelxiNQVCpFTNIvM70Ik87AHBp063il6Y=",
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/navidrome",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/navidrome",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/navidrome",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/navidrome",
         "type": "path"
       }
     },
@@ -55,11 +55,11 @@
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-HqCUpF7gllqAP9cwFmaAJsMfEsDc8TXJb87Bk9vRT7A=",
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/netdata",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/netdata",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/netdata",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/netdata",
         "type": "path"
       }
     },
@@ -70,11 +70,11 @@
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-vvIx9yM7vPkLOvjM3Jm8BsiVQ8E8vfoWc28NltkXoFU=",
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/nginx-proxy-manager",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/nginx-proxy-manager",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/nginx-proxy-manager",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/nginx-proxy-manager",
         "type": "path"
       }
     },
@@ -228,11 +228,11 @@
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-rj6rmzFkpeR4GFz+fH0VoE3RuYxCpXsOlR3NspT3QW8=",
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/portainer",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/portainer",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/portainer",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/portainer",
         "type": "path"
       }
     },
@@ -291,11 +291,11 @@
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-1gxj1Eb1ANbV82jgRTnF2aa7In/e5GlUxfNdSVeui8g=",
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/vaultwarden",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/vaultwarden",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/vaultwarden",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/vaultwarden",
         "type": "path"
       }
     },
@@ -307,11 +307,11 @@
       "locked": {
         "lastModified": 1,
         "narHash": "sha256-dUrw0q4UME6BBJy0lyyQH804amMlbvkFIcrJmN3aU8w=",
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/vscode-server",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/vscode-server",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/v9qvjz9619cdhcn422301c46lgn3blbq-source/services/vscode-server",
+        "path": "/nix/store/lhk59q7i9nsi884dlnkgm7n635qjxkr3-source/services/vscode-server",
         "type": "path"
       }
     },
