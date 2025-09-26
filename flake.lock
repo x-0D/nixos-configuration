@@ -5,15 +5,14 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-NbOMI74MUbmXWTCWcngIo6DHrEFvEbDvo3uoMEl1BBE=",
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/adguardhome",
+        "path": "./services/adguardhome",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/adguardhome",
+        "path": "./services/adguardhome",
         "type": "path"
-      }
+      },
+      "parent": []
     },
     "flake-utils": {
       "inputs": {
@@ -38,60 +37,56 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-C3eV+Ef65botSdmHpw5S6j/4rNEomZIz1dO+woo53Js=",
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/n8n",
+        "path": "./services/n8n",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/n8n",
+        "path": "./services/n8n",
         "type": "path"
-      }
+      },
+      "parent": []
     },
     "navidrome": {
       "inputs": {
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-A/Cum63vkzPvbzGYXJ1q2XaLjDOuM1btN+DiMsOfMV8=",
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/navidrome",
+        "path": "./services/navidrome",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/navidrome",
+        "path": "./services/navidrome",
         "type": "path"
-      }
+      },
+      "parent": []
     },
     "netdata": {
       "inputs": {
         "nixpkgs": "nixpkgs_4"
       },
       "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-8OIjDnRBZzHC3Z3l17XzK7z4RMoBiHywZs9/3ZA6Ryg=",
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/netdata",
+        "path": "./services/netdata",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/netdata",
+        "path": "./services/netdata",
         "type": "path"
-      }
+      },
+      "parent": []
     },
     "nginx-proxy-manager": {
       "inputs": {
         "nixpkgs": "nixpkgs_5"
       },
       "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-6yE5WmBOnSTz6J5ly+3I44nJ0j+LfiynS5cs5ZuYdh0=",
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/nginx-proxy-manager",
+        "path": "./services/nginx-proxy-manager",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/nginx-proxy-manager",
+        "path": "./services/nginx-proxy-manager",
         "type": "path"
-      }
+      },
+      "parent": []
     },
     "nixpkgs": {
       "locked": {
@@ -257,15 +252,14 @@
         "portainer-on-nixos": "portainer-on-nixos"
       },
       "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-WczDfw/FiEAxu/ZVZYYmxNpWUgZrTL5bqNJeb6zP/UY=",
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/portainer",
+        "path": "./services/portainer",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/portainer",
+        "path": "./services/portainer",
         "type": "path"
-      }
+      },
+      "parent": []
     },
     "portainer-on-nixos": {
       "inputs": {
@@ -321,15 +315,14 @@
         "nixpkgs": "nixpkgs_8"
       },
       "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-cNrne/GmRX9w6BOFJUatqYPoIVa4je0H0xNJZ71Dh4o=",
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/vaultwarden",
+        "path": "./services/vaultwarden",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/vaultwarden",
+        "path": "./services/vaultwarden",
         "type": "path"
-      }
+      },
+      "parent": []
     },
     "vscode-server": {
       "inputs": {
@@ -337,15 +330,14 @@
         "vscode-server": "vscode-server_2"
       },
       "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-55WOxSky0nClEOKE5cam09FWz6uRif7jQHbnFqJpRZA=",
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/vscode-server",
+        "path": "./services/vscode-server",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/s7l60w8f5qzxswf2mzx7kz6171rdzgqi-source/services/vscode-server",
+        "path": "./services/vscode-server",
         "type": "path"
-      }
+      },
+      "parent": []
     },
     "vscode-server_2": {
       "inputs": {
