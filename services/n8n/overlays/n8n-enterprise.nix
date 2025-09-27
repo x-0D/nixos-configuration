@@ -15,5 +15,10 @@ final: prev: {
       fetcherVersion = 2;
       hash = "sha256-0kI7YL0d20IOYvMYgJ8TBHFksyviBcpujYIGl6GMmd8=";
     };
+
+    passthru = previousAttrs.passthru // {
+      # Remove the updateScript to disable automatic updates
+      updateScript = "/dev/null";
+    };
   });
 }
