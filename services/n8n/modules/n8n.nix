@@ -8,9 +8,12 @@
     enable = true;
     # Open firewall for web interface (optional)
     openFirewall = true;
-    settings = {
-      N8N_SECURE_COOKIE=false;
-      N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true;
+  };
+
+  systemd.services.n8n = {
+    environment = {
+      N8N_SECURE_COOKIE="false";
+      N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE="true";
     };
   };
   networking.firewall.allowedTCPPorts = [ 5678 ];
