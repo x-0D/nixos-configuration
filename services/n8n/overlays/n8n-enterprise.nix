@@ -19,6 +19,19 @@ final: prev: {
       hash = "sha256-0kI7YL0d20IOYvMYgJ8TBHFksyviBcpujYIGl6GMmd8=";
     };
 
+    # --- FIX ---
+    # Add makeWrapper as a build-time dependency to create the wrapper script
+    nativeBuildInputs = previousAttrs.nativeBuildInputs or [] ++ [
+      final.makeWrapper
+    ];
+
+    # After the package is installed, wrap the main executable
+    postInstall = ''
+      wrapProgram $out/bin/n8n \
+        --prefix PATH : ${final.lib.makeBinPath [ final.nodejs ]}
+    '';
+    # --- END FIX ---
+
     passthru = previousAttrs.passthru // {
       updateScript = "/dev/null";
     };

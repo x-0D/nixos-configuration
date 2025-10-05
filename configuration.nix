@@ -25,6 +25,7 @@
     "sys-fs-fuse-connections.mount"
   ];
   environment.systemPackages = [
+    pkgs.wget
     pkgs.git
   ];
 
