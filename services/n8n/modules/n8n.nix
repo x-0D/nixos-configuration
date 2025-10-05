@@ -8,7 +8,7 @@
 
   nixpkgs.overlays = [
     (import ../overlays/n8n-enterprise.nix)
-    (import ../overlays/n8n-withPackages.nix)
+    # (import ../overlays/n8n-withPackages.nix)
   ];
 
   environment.systemPackages = [
@@ -17,7 +17,8 @@
 
   services.n8n = {
     enable = true;
-    package = pkgs.n8n.withPackages (ps: [ ps.n8n-nodes-datastore ]);
+    package = pkgs.n8n; #.withPackages (ps: [ ps.n8n-nodes-datastore ]);
+    webhookUrl = https://n8n.rwaps.com;
     # Open firewall for web interface (optional)
     openFirewall = true;
   };
@@ -26,6 +27,9 @@
     environment = {
       N8N_SECURE_COOKIE="false";
       N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE="true";
+      # WEBHOOK_URL=https://n8n.rwaps.com;
+      # N8N_PROTOCOL=http
+      # N8N_HOST=192.168.1.44
     };
   };
   networking.firewall.allowedTCPPorts = [ 5678 ];

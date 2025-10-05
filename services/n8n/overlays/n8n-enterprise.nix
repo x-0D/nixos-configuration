@@ -28,7 +28,7 @@ final: prev: {
     # After the package is installed, wrap the main executable
     postInstall = ''
       wrapProgram $out/bin/n8n \
-        --prefix PATH : ${final.lib.makeBinPath [ final.nodejs ]}
+        --prefix PATH : ${final.lib.makeBinPath [ final.nodejs final.toybox ]}
     '';
     # --- END FIX ---
 
