@@ -4,29 +4,39 @@
   disabledModules = [ "services/misc/n8n.nix" ];
   imports = [
     ./n8n-service.nix
+    ./playwright-mcp-service.nix
   ];
 
   nixpkgs.overlays = [
     (import ../overlays/n8n-enterprise.nix)
+    (import ../overlays/playwright-mcp.nix)
     # (import ../overlays/n8n-withPackages.nix)
   ];
 
   environment.systemPackages = [
     pkgs.nodejs # required to install community packages
+    pkgs.playwright-driver.browsers
   ];
 
   services.n8n = {
     enable = true;
     package = pkgs.n8n; #.withPackages (ps: [ ps.n8n-nodes-datastore ]);
-    webhookUrl = https://n8n.rwaps.com;
+    webhookUrl = https://n8n.0x0a.ru;
     # Open firewall for web interface (optional)
     openFirewall = true;
+  };
+  services.playwright-mcp = {
+    enable = true;
+    port = 8931;
   };
 
   systemd.services.n8n = {
     environment = {
       N8N_SECURE_COOKIE="false";
       N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE="true";
+      # PLAYWRIGHT_BROWSERS_PATH = "${pkgs.playwright-driver.browsers}";
+      # PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS ="true";
+
       # WEBHOOK_URL=https://n8n.rwaps.com;
       # N8N_PROTOCOL=http
       # N8N_HOST=192.168.1.44
